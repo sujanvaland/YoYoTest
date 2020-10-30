@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Yo Yo Test";
+}
+
+<div class="text-center  mainyoyobox">
+    <h1 class="display-4"><span class="btnback"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>Yo Yo Test</h1>
+    <div class="cdev" data-color=", #e97d70">
+        <div class="timerbox">
+            <button type="button" id="btnStart" class="btnplay"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <div id="divlevel">
+                <p id="currentlevelNo">0</p>
+                <p id="currentShuttelNo">0</p>
+                <p id="currentSpeed">0</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="timedistancebox">
+        <ul>
+            <li> Next <br />Shuttle <span id="nextShuttle">0.00 s</span></li>
+            <li>Total <br />Time <span id="totalTime">0.00 m</span></li>
+            <li>Total <br />Distance <span id="totalDistance">0.00 m</span></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="trackbox">
+                <h3>Track</h3>
+                <div class="tableBx">
+                    <table id="tableResult">
+                    </table>
+                </div>
+                <div class="divider"></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

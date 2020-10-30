@@ -1,0 +1,262 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.mainyoyobox {
+    max-width: 400px;
+    border: 1px solid #ccc;
+    margin: 0px auto; padding-top:20px;
+    background: #fbfbfb;
+    color: #7d7d7d!important;
+}
+    .mainyoyobox h1 { font-size:20px; font-weight:600; color:#333333; margin-bottom:20px; position:relative;
+    }
+.btnback { float:left;position:absolute; left:20px;
+}
+    .btnback i {
+        color: #577191;
+    }
+.timerbox {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 0px solid #cccccc;
+    margin: 0px auto;
+    display: flex; position:absolute; z-index:999;
+    justify-content: center;
+    align-items: center;
+}
+.timedistancebox {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+
+    .timedistancebox ul {
+        display: flex; width:100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+    }
+ .timedistancebox ul li { border-left:1px solid #ccc; display:flex; width:100%; flex-direction:column; justify-content:center; align-items:center;
+                          text-transform:uppercase; font-size:14px;
+    }
+    .timedistancebox ul li span {
+        display: block;
+        text-transform: lowercase;
+        text-align: center;
+        color: #286654;
+        font-size: 18px;
+    }
+    .timedistancebox ul li:first-child {
+        border: 0px !important;
+    }
+
+.trackbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+   
+    
+}
+.divider {
+    border-bottom: 1px solid #333; width:100%; height:1px; margin:40px 0px 20px  0px;
+}
+.btnplay {
+    border: 0px;
+    background: none;
+    text-align: center;
+    padding: 0px;
+}
+.btnplay i {
+    color: #376155; font-size:50px;
+}
+.trackbox h3 {
+    color: #437e6c;
+    font-size: 18px;
+    border-bottom: 1px solid #b7b7b7;
+    text-align: left;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+    .trackbox .btn.btn-dark {
+        background: #5e7198 !important;
+        padding: 2px 20px !important;
+        border-radius: 40px;
+        font-size: 13px
+    }
+    .trackbox .btn.btn-danger {
+        background: #d86456 !important;
+        padding: 2px 20px !important;
+        border-radius: 40px;
+        font-size: 13px
+    }
+    .trackbox #tableResult tr td {padding:10px 7px!important;
+    }
+    .trackbox #tableResult tr td:nth-child(2) { white-space:nowrap;
+        text-align: left; font-weight:bold;
+        padding-left: 10px;
+    }
+
+    .trackbox button:disabled {
+        background: #b3b6cd !important;
+        padding: 2px 20px !important;
+        border-radius: 40px;
+        color: #fff !important;
+        font-size: 13px
+    }
+.tableBx { max-height:180px; overflow:auto; 
+}
+#divlevel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divlevel span{ font-size:14px; color:#577191;
+
+}
+    #divlevel p {
+        margin: 0px !important;
+        padding: 0px !important;
+        line-height: 19px;
+        font-size: 13px;
+    }
+#divlevel span#currentSpeed {
+    font-size: 12px;
+    color: #333;
+    ;
+}
+
+.cdev {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+    .cdev div {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+        .cdev div span {
+            position: absolute;
+            font-family: Arial;
+            font-size: 25px;
+            line-height: 75px;
+            height: 85px;
+            width: 85px;
+            left: 7.5px;
+            top: 8.5px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+    .cdev .background {
+        background-color: #b3cef6;
+    }
+
+    .cdev .rotate {
+        clip: rect(0 50px 100px 0);
+        background-color: #4b86db;
+    }
+
+    .cdev .left {
+        clip: rect(0 50px 100px 0);
+        opacity: 1;
+        background-color: #b3cef6;
+    }
+
+    .cdev .right {
+        clip: rect(0 50px 100px 0);
+        transform: rotate(180deg);
+        opacity: 0;
+        background-color: #4b86db;
+    }
+
+@keyframes toggle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}  
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

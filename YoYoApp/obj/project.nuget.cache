@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "VOlWxFidi0WDYs2vWsmMV+u+g6FTAT8ybFJ62ykxRwigBZjAk9/Yi/xb++Op513Z8bTvkr3YxhAUBjAG3/UD7A==",
+  "success": true,
+  "projectFilePath": "D:\\MindDigital\\YoYoApp\\YoYoApp\\YoYoApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sujan\\.nuget\\packages\\jquery\\3.5.1\\jquery.3.5.1.nupkg.sha512",
+    "C:\\Users\\Sujan\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
